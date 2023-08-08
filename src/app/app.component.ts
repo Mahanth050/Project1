@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router,Route } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Project1';
+  constructor(private router:Router){
+
+  }
+  Loginclick(){
+     this.router.navigate(['Login']);
+  }
+  Dashbordclick(){
+    this.router.navigate(['dashbord']);
+  }
 }
