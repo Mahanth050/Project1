@@ -1,1 +1,22 @@
-<p *ngFor='let i of data'>{{i}}</p>
+<form style="margin: auto; width: 600px;">
+    <div class="container">
+        <h2>Product Details</h2>
+        <table class="table table-sm table-bordered m-t-2">
+            <tr>
+                <th>Id</th>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Image</th>
+                
+            </tr>
+            <tr *ngFor="let user of jsondata">
+                <td>{{user.id}}</td>
+                <td>{{user.item}}</td>
+                <td>{{user.price}}</td>
+                <!-- <td><img src={{user.image}}></td> -->
+                <td><img style="width: 156px;height:95px;" src="{{user.image}}"> </td>
+               
+            </tr>
+        </table>
+    </div>
+</form>

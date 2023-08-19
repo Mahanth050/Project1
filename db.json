@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+    "id": 1,
+      "item": "Dairy Milk",
+      "price": 50,
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/chocolate/h/n/1/-original-imaghqdbm4rbuhgr.jpeg?q=70"
+    },
+    {
+      "id": 2,
+      "item": "Ice Cream",
+      "price": 100,
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/ready-mix/j/a/q/400-butterscotch-chocolate-rose-black-currant-ice-cream-mix-original-imagzume8v25sy4c.jpeg?q=70"
+    },
+    {
+      "id": 3,
+      "item": "Bengal Gram",
+      "price": 50,
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/snack-savourie/3/r/v/2-roasted-bengal-gram-dal-bhuna-chana-putnalu-pappu-1-pouch-original-imaggzhdnnknggjk.jpeg?q=70"
+    },
+    {
+      "id": 4,
+      "item": "Light",
+      "price": 50,
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/torch/x/d/y/100-100w-laser-torch-plus-20hw-big-smd-side-tube-emergency-light-original-imaggzr4agr55h8v.jpeg?q=70"
+
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

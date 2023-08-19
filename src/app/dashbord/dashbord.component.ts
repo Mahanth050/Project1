@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ProjectserviceService } from '../projectservice.service';
 
 @Component({
   selector: 'app-dashbord',
@@ -6,7 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./dashbord.component.css']
 })
 export class DashbordComponent {
+  jsondata:any[]=[];
+  constructor(private serviceobj:ProjectserviceService){
 
-  data=['Mahanth,GET,52129146','Nissi,GET,12345678','vishwa,GET,52129145']
+  }
+  ngOnInit(): void {
+    this.serviceobj.getdata().subscribe((data)=>{
+      this.jsondata = data;
+    })
 
+  }
+  
 }
