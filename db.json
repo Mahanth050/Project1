@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-    "id": 1,
+      "id": 1,
       "item": "Dairy Milk",
       "price": 50,
       "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/chocolate/h/n/1/-original-imaghqdbm4rbuhgr.jpeg?q=70"
@@ -23,14 +23,20 @@
       "item": "Light",
       "price": 50,
       "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/torch/x/d/y/100-100w-laser-torch-plus-20hw-big-smd-side-tube-emergency-light-original-imaggzr4agr55h8v.jpeg?q=70"
-
     }
   ],
   "comments": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "username": "Mahanth",
+      "email": "mahnath050@gmail.com",
+      "Password": "Mahanth"
+    },
+    {
+      "username": "subash",
+      "email": "shubash@gmail.com",
+      "Password": "123456",
+      "id": 2
     }
   ],
   "profile": {
